@@ -1,0 +1,28 @@
+# Nano text-editor configuration.
+
+# OPTIONS
+
+# set magic
+# set minibar
+set historylog
+set autoindent
+set linenumbers
+set mouse
+set noconvert
+# set nohelp
+set softwrap
+set tabsize 4
+set tabstospaces
+
+# COLOR SCHEMES
+
+set functioncolor white
+set keycolor blue
+set numbercolor white
+set statuscolor magenta
+set stripecolor ,black
+set titlecolor black,red
+
+# SYNTAX HIGHLIGHTING
+
+include "/usr/share/nano/*nanorc"

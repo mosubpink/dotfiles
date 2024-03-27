@@ -1,0 +1,43 @@
+Xft.antialias:	1
+Xft.hinting:	1
+Xft.autohint:	0
+Xft.hintstyle:	hintslight
+Xft.rgba:	rgb
+Xft.lcdfilter:	lcddefault
+#include ".Xresources.d/rxvt-unicode"
+#include ".Xresources.d/xterm"
+
+*.background: #1E1D23
+*.foreground: #DED7D0
+
+! black
+*.color0: #272932
+*.color8: #2b2f39
+
+! red
+*.color1: #e85a84
+*.color9: #e85a84
+
+! green
+*.color2:  #94dd8e
+*.color10: #94dd8e
+
+! yellow
+*.color3:  #e9d26c
+*.color11: #e9d26c
+
+! blue
+*.color4:  #7eb7e6
+*.color12: #7eb7e6
+
+! magenta
+*.color5:  #d895c7
+*.color13: #d895c7
+
+! cyan
+*.color6:  #89beb7
+*.color14: #89beb7
+
+! white
+*.color7: #BAC2DE
+*.color15: #A6ADC8
