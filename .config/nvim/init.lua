@@ -3,7 +3,6 @@ vim.opt.mouse = 'a'
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.hlsearch = false
-vim.g.mapleader = ' '
 -- buffer-scoped
 vim.opt.autoindent = true
 -- window-scoped
