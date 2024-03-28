@@ -1,13 +1,1 @@
-[colors.primary]
-foreground = "#dfe0ea"
-background = "#1b1d26"
-[colors.normal]
-black   =    "#272932"
-red     =    "#e85a84"
-green   =    "#94dd8e"
-yellow  =    "#e9d26c"
-blue    =    "#7eb7e6"
-magenta =    "#d895c7"
-cyan    =    "#89beb7"
-white   =    "#cfd0d7"
-
+../../Dotfiles/.config/alacritty/oh-lucy.toml
