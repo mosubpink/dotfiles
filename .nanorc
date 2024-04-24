@@ -8,8 +8,9 @@ set historylog
 set autoindent
 set linenumbers
 set mouse
-set noconvert
+# set noconvert
 # set nohelp
+set unix
 set softwrap
 set tabsize 4
 set tabstospaces
@@ -17,11 +18,11 @@ set tabstospaces
 # COLOR SCHEMES
 
 set functioncolor white
-set keycolor blue
+set keycolor yellow
 set numbercolor white
-set statuscolor magenta
-set stripecolor ,black
-set titlecolor black,red
+set statuscolor red
+set stripecolor black
+set titlecolor black,green
 
 # SYNTAX HIGHLIGHTING
 

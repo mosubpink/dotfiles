@@ -1,3 +1,3 @@
 return{
-  'Yazeed1s/oh-lucy'
+  'Yazeed1s/oh-lucy.nvim'
 }
