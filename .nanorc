@@ -2,7 +2,7 @@
 
 # OPTIONS
 
-# set magic
+set magic
 # set minibar
 set historylog
 set autoindent
@@ -17,12 +17,12 @@ set tabstospaces
 
 # COLOR SCHEMES
 
+set titlecolor bold,black,green
 set functioncolor white
 set keycolor yellow
 set numbercolor white
 set statuscolor red
 set stripecolor black
-set titlecolor black,green
 
 # SYNTAX HIGHLIGHTING
 
