@@ -3,16 +3,15 @@ vim.opt.mouse = 'a'
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.hlsearch = false
--- buffer-scoped
 vim.opt.autoindent = true
--- window-scoped
 vim.opt.cursorline = true
--- global scope
 vim.opt.autowrite = true
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.softtabstop = 2
 vim.opt.expandtab = true
+vim.opt.termguicolors = true
+
 local lazy = {}
 
 function lazy.install(path)
@@ -48,5 +47,6 @@ lazy.setup({
   {import = 'core.plugins'},
   {import = 'core.themes'}
 })
-vim.opt.termguicolors = true
-vim.cmd([[colorscheme oh-lucy-evening]])
+vim.cmd("colorschem oh-lucy-evening")
+
+
