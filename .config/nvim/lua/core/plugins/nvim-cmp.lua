@@ -82,5 +82,6 @@ require('lspconfig')['lua_ls'].setup {
 require('lspconfig')['rust_analyzer'].setup{
     capabilities = capabilities
 }
+
 end,
 }
