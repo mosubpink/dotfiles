@@ -11,6 +11,7 @@ vim.opt.shiftwidth = 2
 vim.opt.softtabstop = 2
 vim.opt.expandtab = true
 vim.opt.termguicolors = true
+-- vim.opt.clipboard = "unnamedplus"
 
 local lazy = {}
 
@@ -33,8 +34,8 @@ function lazy.setup(plugins)
     return
   end
 
-  -- You can "comment out" the line below after lazy.nvim is installed
-  --lazy.install(lazy.path)
+   --You can "comment out" the line below after lazy.nvim is installed
+  lazy.install(lazy.path)
 
   vim.opt.rtp:prepend(lazy.path)
 
@@ -47,6 +48,6 @@ lazy.setup({
   {import = 'core.plugins'},
   {import = 'core.themes'}
 })
-vim.cmd("colorschem oh-lucy-evening")
+vim.cmd("colorschem oh-lucy")
 
 

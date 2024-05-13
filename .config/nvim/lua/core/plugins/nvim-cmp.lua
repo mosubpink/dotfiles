@@ -34,6 +34,7 @@ config = function()
     sources = cmp.config.sources({
       { name = 'nvim_lsp' },
       { name = 'vsnip' }, -- For vsnip users.
+      {  name = 'path',},
       -- { name = 'luasnip' }, -- For luasnip users.
       -- { name = 'ultisnips' }, -- For ultisnips users.
       -- { name = 'snippy' }, -- For snippy users.
@@ -73,10 +74,13 @@ config = function()
   -- Set up lspconfig.
   local capabilities = require('cmp_nvim_lsp').default_capabilities()
   -- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
-  require('lspconfig')['pyright'].setup {
+  require('lspconfig')['pylsp'].setup {
     capabilities = capabilities
   }
-require('lspconfig')['lua_ls'].setup {
+  require('lspconfig')['lua_ls'].setup {
+    capabilities = capabilities
+  }
+  require('lspconfig')['clangd'].setup {
     capabilities = capabilities
   }
 require('lspconfig')['rust_analyzer'].setup{
