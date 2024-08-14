@@ -7,8 +7,8 @@ vim.opt.autoindent = true
 vim.opt.cursorline = true
 vim.opt.autowrite = true
 vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.softtabstop = 2
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
 vim.opt.expandtab = true
 vim.opt.termguicolors = true
 -- vim.opt.clipboard = "unnamedplus"
@@ -35,7 +35,7 @@ function lazy.setup(plugins)
   end
 
    --You can "comment out" the line below after lazy.nvim is installed
-  lazy.install(lazy.path)
+  -- lazy.install(lazy.path)
 
   vim.opt.rtp:prepend(lazy.path)
 
