@@ -3,7 +3,6 @@
 --embed-subs
 --embed-chapters
 --embed-thumbnail
---sponsorblock-remove sponsor
 --embed-metadata
 --merge-output-format mkv
 -o %(title)s.%(ext)s
