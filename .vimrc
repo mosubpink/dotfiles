@@ -6,3 +6,4 @@
 :set mouse=a
 :set encoding=UTF-8
 :colorscheme default 
+:syntax enable
