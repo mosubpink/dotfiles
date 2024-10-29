@@ -1,2 +1,3 @@
 .config/nvim/lazy-lock.json
 ./.config/mpv/scripts
+./.config/ncmpcpp/error.log
