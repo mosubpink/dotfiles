@@ -94,9 +94,6 @@ require('lspconfig')['texlab'].setup{
 require('lspconfig')['dockerls'].setup{
     capabilities = capabilities
 }
-require('lspconfig')['cmake'].setup{
-    capabilities = capabilities
-}
 
 end,
 }
