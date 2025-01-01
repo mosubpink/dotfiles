@@ -1,11 +1,11 @@
-sw_volume: 100
+sw_volume: 50
 audio_device_state:1:pipewire
 audio_device_state:1:Visualizer
 state: stop
-current: 41
+current: 117
 random: 0
 repeat: 0
-single: 0
+single: 1
 consume: 0
 crossfade: 0
 mixrampdb: 0.000000
@@ -38,52 +38,95 @@ playlist_begin
 24:Frizk - ALL MY FELLAS.flac
 25:Grover_Washington,_Jr_Just_the_Two_of_Us_feat_Bill_Withers.flac
 26:Horizon - Scheming (Instrumental Slowed).flac
-27:01. Iolite.mp3
-28:JIN - Daze（Re Ver.）.flac
-29:KANA-BOON - Silhouette.flac
-30:KANA-BOON - Torch of Liberty.flac
-31:Ken Ishii - Extra.flac
-32:Laura Sullivan - Zelda s Lullaby.flac
-33:Lie and a Chameleon - mononoke in the fiction.flac
-34:Luke Willies - a bird s last look - Jersey Remix.flac
-35:Macabre Plaza - A Bird s Last Look.flac
-36:Machico - TOMORROW.flac
-37:MAN WITH A MISSION - When My Devil Rises.flac
-38:MAN WITH A MISSION - Dark Crow.flac
-39:Masters_of_Sound_Mipha's_Theme_From_The_Legend_of_Zelda_Breath.flac
-40:Matt Maltese - As the World Caves In.flac
-41:Mayu Maeshima - Long shot.flac
-42:Metallica - Master of Puppets.flac
-43:MGMT - Little Dark Age.flac
-44:Molly Daisy Scarpine - Extras.flac
-45:Nakashima Yuki - Route BLUE.flac
-46:Naoki - Smell of the Game.flac
-47:NAOKI - Find Your One Way.flac
-48:NAOKI - Symphony.flac
-49:NAOKI - The Gravity.flac
-50:nasuo - Honey Jet Coaster.flac
-51:Nikomanjiro - Bando.flac
-52:Queen Bee - Mephisto.flac
-53:Ryokuoushoku Shakai - Party!!.flac
-54:Sarah Cothran - As the World Caves In.flac
-55:Sex Bob-Omb - Orange Shirt.flac
-56:Slushii - All I Need.flac
-57:Tame Impala - Let It Happen.flac
-58:The Rare Occasions - Notion.flac
-59:Tommy Richman - MILLION DOLLAR BABY.flac
-60:TOOBOE - Itaino Itaino Tondeike.flac
-61:TOOBOE - tablet.flac
-62:Tyler, The Creator - See You Again (feat. Kali Uchis).flac
-63:シュガーソングとビターステップ_UNISON_SQUARE_GARDEN.flac
-64:Village People - YMCA.flac
-65:yanaginagi - ユキトキ.flac
-66:Yasunori Mitsuda - Chrono Trigger.flac
-67:YOASOBI - 怪物.flac
-68:you lost - Scheming (Instrumental Slowed).flac
-69:ZUTOMAYO - Truth in Lies.flac
-70:Hacking to the Gate - いとうかなこ.flac
-71:スーパーちょろゴンず_めいどうぃずどらごんず.flac
-72:みゆな - 天上天下.flac
-73:内田彩 - Sign.flac
-74:大森靖子 - めっかわ.flac
+27:JIN - Daze（Re Ver.）.flac
+28:KANA-BOON - Silhouette.flac
+29:KANA-BOON - Torch of Liberty.flac
+30:Ken Ishii - Extra.flac
+31:Laura Sullivan - Zelda s Lullaby.flac
+32:Lie and a Chameleon - mononoke in the fiction.flac
+33:Luke Willies - a bird s last look - Jersey Remix.flac
+34:Macabre Plaza - A Bird s Last Look.flac
+35:Machico - TOMORROW.flac
+36:MAN WITH A MISSION - When My Devil Rises.flac
+37:MAN WITH A MISSION - Dark Crow.flac
+38:Masters_of_Sound_Mipha's_Theme_From_The_Legend_of_Zelda_Breath.flac
+39:Matt Maltese - As the World Caves In.flac
+40:Mayu Maeshima - Long shot.flac
+41:Metallica - Master of Puppets.flac
+42:MGMT - Little Dark Age.flac
+43:Molly Daisy Scarpine - Extras.flac
+44:Nakashima Yuki - Route BLUE.flac
+45:NAOKI - Find Your One Way.flac
+46:NAOKI - Symphony.flac
+47:Naoki - Smell of the Game.flac
+48:NAOKI - The Gravity.flac
+49:nasuo - Honey Jet Coaster.flac
+50:Nikomanjiro - Bando.flac
+51:Queen Bee - Mephisto.flac
+52:Ryokuoushoku Shakai - Party!!.flac
+53:Sarah Cothran - As the World Caves In.flac
+54:Sex Bob-Omb - Orange Shirt.flac
+55:Slushii - All I Need.flac
+56:Tame Impala - Let It Happen.flac
+57:The Rare Occasions - Notion.flac
+58:Tommy Richman - MILLION DOLLAR BABY.flac
+59:TOOBOE - Itaino Itaino Tondeike.flac
+60:TOOBOE - tablet.flac
+61:Tyler, The Creator - See You Again (feat. Kali Uchis).flac
+62:シュガーソングとビターステップ_UNISON_SQUARE_GARDEN.flac
+63:Village People - YMCA.flac
+64:yanaginagi - ユキトキ.flac
+65:Yasunori Mitsuda - Chrono Trigger.flac
+66:YOASOBI - 怪物.flac
+67:you lost - Scheming (Instrumental Slowed).flac
+68:ZUTOMAYO - Truth in Lies.flac
+69:Hacking to the Gate - いとうかなこ.flac
+70:スーパーちょろゴンず_めいどうぃずどらごんず.flac
+71:みゆな - 天上天下.flac
+72:内田彩 - Sign.flac
+73:大森靖子 - めっかわ.flac
+74:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/01 monologue.flac
+75:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/21 Catch-Eye B.flac
+76:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/28 Hangeki.flac
+77:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/41 Jikai Yokoku.flac
+78:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/40 Hello Alone (TV size).flac
+79:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/39 Anata-tachi wa.flac
+80:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/38 Kokoro Surechigau.flac
+81:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/02 Yukitoki (TV size).flac
+82:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/03 School Caste.flac
+83:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/04 Koori no Joou.flac
+84:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/05 Fight, Ready Go!.flac
+85:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/06 Youkoso Houshibu e.flac
+86:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/07 Bocchi no Ryuugi.flac
+87:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/08 Ya Hallo!.flac
+88:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/09 Houshibu Katsudou Nisshi 01.flac
+89:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/10 Damesugiru Hito-tachi.flac
+90:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/11 Honne, Ienakute.flac
+91:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/12 Fukamaru Tairitsu.flac
+92:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/13 Hito wa Dareshi mo, Kanpeki de wa Nai kara.flac
+93:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/14 Ware to Onushi de.flac
+94:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/15 Toufu Mental Kiki Ippatsu.flac
+95:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/16 Zaimokuza Overdrive.flac
+96:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/17 Seishun Rabukome no Kamisama.flac
+97:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/18 sophisticated girl.flac
+98:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/19 Kitto Kanojo wa..flac
+99:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/20 Catch-Eye A.flac
+100:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/22 Houshibu Katsudou Nisshi 02.flac
+101:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/23 Mou Modoritakunai, Ano Natsu no Hi.flac
+102:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/24 Makoto ni Ikannagara, Shiriai﻿？.flac
+103:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/25 Totsukawaii♪.flac
+104:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/26 Itsumo no Houkago.flac
+105:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/27 Honoo no Joou.flac
+106:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/29 Saidai no Pinch.flac
+107:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/30 Ore no Turn.flac
+108:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/31 Riajuu Bakuhatsu Shiro..flac
+109:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/32 Kekka All Right﻿？.flac
+110:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/33 Chain Mail.flac
+111:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/34 Fuon na Kuuki.flac
+112:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/35 Nanka, Iya.flac
+113:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/36 Reset Button.flac
+114:[sukidesuost.info] [FLAC] Oregairu Original Soundtrack/37 Yasashii Onna no Ko.flac
+115:XXXTentacion - Fuck Love.flac
+116:Flawed Mangoes - Dramamine.flac
+117:Akon - Right Now (Na Na Na).flac
 playlist_end

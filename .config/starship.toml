@@ -21,4 +21,4 @@ symbol = '󰌠 '
 [lua]
 symbol = '󰢱 '
 [rust]
-symbol = ' '
+symbol = ' '
