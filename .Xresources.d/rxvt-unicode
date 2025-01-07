@@ -1,7 +1,6 @@
 !URxvt configuration.
-URxvt.font:	 xft:ShureTechMono Nerd Font:size=11,\
-			 xft:ShureTechMono Nerd Font Mono:size=11
-URxvt.geometry:                  100x30
+URxvt.font:	 xft:Lilex Nerd Font:size=11, xft:Lilex Nerd Font Mono:size=11
+!URxvt.geometry:                  100x30
 !URxvt.internalBorder:             20
 URxvt.cursorBlink:                true
 URxvt.cursorUnderline:            true
