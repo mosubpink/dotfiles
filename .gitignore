@@ -1,6 +1,5 @@
-.config/nvim/lazy-lock.json
-.config/mpv/scripts
-.config/ncmpcpp/error.log
-.config/mpd/mpdstate
-.config/mpd/mpd.db
-.config/mpd/mpdstate
+lazy-lock.json
+scripts
+error.log
+mpd.db
+mpdstate
