@@ -1,3 +1,4 @@
-*.termName:					xterm-256color
+*font: Lilex Nerd Font:size=10
+*.termName:			xterm-256color
 *.vt100.metaSendsEscape:	true
-*.vt100.faceName:			JetBrainsMono Nerd Font:size=10
+*.vt100.faceName:			Source Code Pro:size=10
