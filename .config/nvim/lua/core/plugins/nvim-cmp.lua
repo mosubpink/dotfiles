@@ -94,6 +94,12 @@ require('lspconfig')['texlab'].setup{
 require('lspconfig')['dockerls'].setup{
     capabilities = capabilities
 }
+require('lspconfig')['asm_lsp'].setup{
+    capabilities = capabilities
+}
+require('lspconfig')['r_language_server'].setup{
+    capabilities = capabilities
+}
 
 end,
 }

@@ -48,6 +48,6 @@ lazy.setup({
   {import = 'core.plugins'},
   {import = 'core.themes'}
 })
-vim.cmd("colorschem oh-lucy")
+vim.cmd("colorschem oh-lucy-evening")
 
 
