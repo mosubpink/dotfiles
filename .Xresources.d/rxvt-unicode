@@ -10,7 +10,7 @@ URxvt.scrollBar:                  false
 URxvt.depth:					  32	
 
 ! Uncomment below if too much font spacing, and fix glyphs performance issues.
-URxvt.letterSpace:                -1
+!URxvt.letterSpace:                -1
 !URxvt.skipBuiltinGlyphs:          true
 
 ! Disable printing the terminal contents when pressing PrintScreen.

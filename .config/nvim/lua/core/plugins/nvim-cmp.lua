@@ -97,7 +97,8 @@ config = function()
       workspace = {
         library = {
           vim.fn.expand'~/.luarocks/share/lua/5.4',
-          '/usr/share/lua/5.4'
+          '/usr/share/lua/5.4',
+          '~/.local/share/LuaAddons/' -- LÖVE lsp
         }
       }
     }
@@ -119,6 +120,12 @@ require('lspconfig')['asm_lsp'].setup{
     capabilities = capabilities
 }
 require('lspconfig')['r_language_server'].setup{
+    capabilities = capabilities
+}
+require('lspconfig')['java_language_server'].setup{
+    capabilities = capabilities
+}
+require('lspconfig')['jdtls'].setup{
     capabilities = capabilities
 }
 

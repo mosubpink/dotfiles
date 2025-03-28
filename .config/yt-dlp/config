@@ -1,4 +1,5 @@
 -f -
+--sub-langs "en.*,.*-orig,ar"
 --sub-format ass
 --embed-subs
 --embed-chapters

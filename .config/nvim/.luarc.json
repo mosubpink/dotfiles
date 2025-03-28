@@ -1,0 +1,9 @@
+{
+    "workspace.library": [
+        "/home/blank/.luarocks/share/lua/5.4",
+        "/usr/share/lua/5.4",
+        "${3rd}/luassert/library",
+        "${3rd}/OpenResty/library"
+    ],
+    "runtime.version": "LuaJIT"
+}
