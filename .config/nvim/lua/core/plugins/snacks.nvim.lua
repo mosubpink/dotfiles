@@ -31,6 +31,7 @@ keys = {
             { "<c-/>",      function() Snacks.terminal() end, desc = "Toggle Terminal" },
             { "<leader>/", function() Snacks.picker.grep() end, desc = "Grep" },
             { "<leader>,", function() Snacks.picker.buffers() end, desc = "Buffers" },
+            { "<leader>Z",  function() Snacks.zen.zoom() end, desc = "Toggle Zoom" },
         }
         
 }
