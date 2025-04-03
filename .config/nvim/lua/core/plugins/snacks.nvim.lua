@@ -21,5 +21,17 @@ return {
     statuscolumn = { enabled = true },
     words = { enabled = true },
   },
+keys = {
+            { "<leader>e", function() Snacks.explorer() end, desc = "File Explorer" },
+            { "<leader><space>", function() Snacks.picker.smart() end, desc = "Smart Find Files" },
+            { "<leader>ff", function() Snacks.picker.files() end, desc = "Find Files" },
+            { "<leader>sk", function() Snacks.picker.keymaps() end, desc = "Keymaps" },
+            { "<leader>si", function() Snacks.picker.icons() end, desc = "Icons" },
+            { "<leader>z",  function() Snacks.zen() end, desc = "Toggle Zen Mode" },
+            { "<c-/>",      function() Snacks.terminal() end, desc = "Toggle Terminal" },
+            { "<leader>/", function() Snacks.picker.grep() end, desc = "Grep" },
+            { "<leader>,", function() Snacks.picker.buffers() end, desc = "Buffers" },
+        }
+        
 }
 }
