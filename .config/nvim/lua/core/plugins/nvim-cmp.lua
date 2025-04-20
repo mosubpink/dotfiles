@@ -98,7 +98,7 @@ config = function()
         library = {
           vim.fn.expand'~/.luarocks/share/lua/5.4',
           '/usr/share/lua/5.4',
-          '~/.local/share/LuaAddons/' -- LÖVE lsp
+          -- '~/.local/share/LuaAddons/' -- LÖVE lsp
         }
       }
     }
