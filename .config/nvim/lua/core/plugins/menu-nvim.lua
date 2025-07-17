@@ -1,5 +1,5 @@
 return{
     { "nvzone/volt" , lazy = true },
     {"nvzone/menu" , lazy = true },
-    require("menu").open(options, opts),
+    opts = {...},
 }

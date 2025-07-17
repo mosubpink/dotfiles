@@ -22,3 +22,5 @@ symbol = '󰌠 '
 symbol = '󰢱 '
 [rust]
 symbol = ' '
+[golang]
+symbol = ' '

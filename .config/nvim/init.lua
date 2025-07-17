@@ -1,17 +1,23 @@
-vim.opt.number = true
-vim.opt.mouse = 'a'
-vim.opt.ignorecase = true
-vim.opt.smartcase = true
-vim.opt.hlsearch = false
-vim.opt.autoindent = true
-vim.opt.cursorline = true
-vim.opt.autowrite = true
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 4
-vim.opt.softtabstop = 4
-vim.opt.expandtab = true
-vim.opt.termguicolors = true
+local opt = vim.opt
+opt.number = true
+opt.mouse=a
+opt.ignorecase = true
+opt.smartcase = true
+opt.hlsearch = false
+opt.autoindent = true
+opt.cursorline = true
+-- opt.autowrite = true
+opt.tabstop = 2
+opt.shiftwidth = 4
+opt.softtabstop = 4
+opt.expandtab = true
+opt.termguicolors = true
+-- opt.wrap = false
 -- vim.opt.clipboard = "unnamedplus"
+opt.scrolloff = 10
+vim.o.autoread = true
+opt.background = "dark"
+opt.backspace = "indent,eol,start"
 
 local lazy = {}
 
