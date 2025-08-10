@@ -131,11 +131,14 @@ require('lspconfig')['jdtls'].setup{
 require('lspconfig')['gopls'].setup{
     capabilities = capabilities
 }
-require('lspconfig')['basedpyright'].setup{
-    capabilities = capabilities
-}
--- require('lspconfig')['csharp-ls'].setup{
+-- require('lspconfig')['basedpyright'].setup{
 --     capabilities = capabilities
 -- }
+require('lspconfig')['csharp_ls'].setup{
+    capabilities = capabilities
+}
+require('lspconfig')['jedi_language_server'].setup{
+    capabilities = capabilities
+}
 end,
 }
