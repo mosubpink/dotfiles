@@ -37,7 +37,7 @@ config = function()
       { name = 'nvim_lsp' },
       -- { name = 'vsnip' }, -- For vsnip users.
       {  name = 'path',},
-      -- { name = 'luasnip' }, -- For luasnip users.
+      { name = 'luasnip' }, -- For luasnip users.
       -- { name = 'ultisnips' }, -- For ultisnips users.
       -- { name = 'snippy' }, -- For snippy users.
     }, {
@@ -138,6 +138,24 @@ require('lspconfig')['csharp_ls'].setup{
     capabilities = capabilities
 }
 require('lspconfig')['jedi_language_server'].setup{
+    capabilities = capabilities
+}
+require('lspconfig')['html'].setup{
+    capabilities = capabilities
+}
+require('lspconfig')['htmx'].setup{
+    capabilities = capabilities
+}
+require('lspconfig')['lemminx'].setup{
+    capabilities = capabilities
+}
+require('lspconfig')['biome'].setup{
+    capabilities = capabilities
+}
+require('lspconfig')['fortls'].setup{
+    capabilities = capabilities
+}
+require('lspconfig')['cssls'].setup{
     capabilities = capabilities
 }
 end,

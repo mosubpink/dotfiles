@@ -18,6 +18,9 @@ opt.scrolloff = 10
 vim.o.autoread = true
 opt.background = "dark"
 opt.backspace = "indent,eol,start"
+vim.diagnostic.config({
+  virtual_text = true,
+})
 
 local lazy = {}
 
