@@ -2,7 +2,7 @@
 ![pic](https://github.com/mosubpink/dotfiles/blob/main/screenshots/Screenshot-1.png)
 ![pic](https://github.com/mosubpink/dotfiles/blob/main/screenshots/screenshot-2.png)
 ## info
-- OS: [Linux Mint](https://www.linuxmint.com/)
+- OS: [Arch Linux](https://www.linuxmint.com/)
 
 - WM: [i3](https://i3wm.org)
 
